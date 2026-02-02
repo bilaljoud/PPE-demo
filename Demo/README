@@ -6,7 +6,8 @@ new_script.sh contains the script that will be run by github upon a pull request
 A workflow has currently been defined in the .github/workflows
 
 Demo steps:
+- Create new branch
 - Open a Pull Request
-- PR should propose the deletion of all existing workflows
-- workflows to be replaced by the contents of "new_artifact.yml"
-- open multiple PRs 
+- delete existing of all existing workflows and add a new one
+- New workflow has contents of "new_artifact.yml"
+- Submit PR
