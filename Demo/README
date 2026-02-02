@@ -1,0 +1,12 @@
+This directory contains the files used to demonstrate the Poisoned Pipeline Execution (PPE) attack
+
+new_artifact.yml contains the new
+new_script.sh contains the script that will be run by github upon a pull request
+
+A workflow has currently been defined in the .github/workflows
+
+Demo steps:
+- Open a Pull Request
+- PR should propose the deletion of all existing workflows
+- workflows to be replaced by the contents of "new_artifact.yml"
+- open multiple PRs 

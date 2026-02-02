@@ -1,0 +1,7 @@
+This directory contains the full artifacts linked in the original attack reported in:
+
+https://dev.to/thibaultduponchelle/the-github-action-mining-attack-through-pull-request-2lmc
+
+ci.yml contains the new workflow definition with the base-64 encoded script being run on pull req
+
+decoded_script.sh contains the decoded base64 which is the script run
